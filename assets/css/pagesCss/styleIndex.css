@@ -1,5 +1,21 @@
-.divTemporal{
-    height: 200px;
-    width: 200px;
-    background-color: red;  
+.productsCards {
+    display: flex;
+    justify-items: center;
+    padding: 20%;
+}
+
+.product {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 280px;
+}
+
+.product img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
 }
