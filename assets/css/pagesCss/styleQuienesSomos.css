@@ -1,5 +1,58 @@
-.divTemporal{
-    height: 200px;
-    width: 200px;
-    background-color: red;  
+.contenido-quienesSomos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+h1{
+    color: rgba(231, 209, 127, 1) ;
+    font-size: 48px;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+
+main{
+    background-color: rgba(88, 73, 73, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div p {
+  margin-bottom: 20px; 
+}
+div li{
+  color: white;
+  font-size: 22px;
+}
+
+
+div p {
+  margin: 15px 0;
+}
+div ul {
+  margin: 15px 0;
+}
+
+.contenedor-logo{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.contenedor-logo img{
+  margin-top: 40px;
+  width: 687;
+  height: 375px;
+}
+li{
+  list-style-type: none;
 }
