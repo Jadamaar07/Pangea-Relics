@@ -1,5 +1,146 @@
-.divTemporal{
-    height: 200px;
-    width: 200px;
-    background-color: red;  
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
 }
+
+/* Contenedor de productos centrado */
+.productos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 0 20px;
+    justify-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.productos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.productos {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px; 
+    margin: 0 auto; 
+}
+
+.producto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    width: 100%; 
+    max-width: 280px; 
+}
+
+.producto img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.producto p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+/* Menú fijo en la parte izquierda */
+.left-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    width: 200px;
+    height: calc(100vh - 80px);
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    border-right: 1px solid #444;
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.left-menu ul li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.left-menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3;
+}
+
+.left-menu ul li a:hover {
+    background-color: #666;
+}
+
+main {
+    flex: 1;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+
+.servicios-section {
+    padding: 60px 40px;
+    margin-top: 60px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicios-title {
+    font-size: 2.5rem;
+    color: rgba(231, 209, 127, 1);
+    font-weight: 400;
+    margin: 0;
+    margin-left: 20%;
+    font-style: normal;
+}
+
+.servicios-btn {
+    background-color: rgba(231, 209, 127, 1);
+    color: #1a1a1a;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.servicios-btn:hover {
+    background-color: #f0c952;
+    transform: translateX(5px);
+}
+
