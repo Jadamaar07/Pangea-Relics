@@ -1,7 +1,7 @@
 .productsCards {
     display: flex;
     justify-items: center;
-    padding: 15%;
+    padding: 10%;
 
 }
 
@@ -43,6 +43,9 @@ main h1 {
     transform: scale(1.05)
 }
 
-.product button{
-    margin-top: 80%;
+.btnProducts{
+    margin-left: 76%;
+    border-radius: 8px;
+    background-color: #E7D17F;
+    padding: 8px;
 }
