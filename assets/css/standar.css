@@ -79,7 +79,126 @@ footer{
     display: flex;
     border: 5px solid #E7D17F;
     background-color: #473D3D;
-    height: 100px;
+    height: auto;
     color: white;
     margin-top: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.linea-vertical {
+    width: 1px;
+    background-color: #E7D17F;
+    min-height: 200px;
+    margin: 10px 0px
+}
+
+.rightFooter{
+    margin: 14px;
+    margin-left: 25px;
+}
+
+.rightUpFooter{
+    display: flex;
+}
+
+.imagenFooterLeftUp{
+    width:180px;
+}
+
+.containerTextUpRightFooter{
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.titleUpRightFooter{
+    font-size: large;
+}
+
+.subTitleUpRightFooter{
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+
+.rightDownFooter{
+    display: flex;
+    gap: 20px;
+}
+
+.titleDownSideFooter{
+    color: #E7D17F;
+}
+
+.textDownSideFooter{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.secondSubTextFooter{
+    margin-top: 20px;
+}
+
+.middleFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.middleFooter form{
+    width: 100%;
+}
+
+.middleFooter input{
+    border-radius: 15px;
+    height: 40px;
+    width: 80%;
+    padding-left: 10px;
+    border: solid 1px ;
+    margin-top: 30px;
+}
+
+
+.textDownInputMidFooter{
+    color: #c9c3c3;
+    font-size: 15px;
+}
+
+.titleMidFooter{
+    font-size: 25px;
+}
+
+.leftFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-right: 40px;
+}
+
+.leftFooter p{
+    font-size: 25px;
+}
+
+.containerImgSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contendorSocialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagenRedsocialFooter{
+    width: 50px;
+    height: 50px;
 }
