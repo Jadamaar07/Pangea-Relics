@@ -1,19 +1,93 @@
-/* Temporal Eliminar */
-main {
+main{
+background-image: url('../../img/img-index/desktop-wallpaper-gold-ring-jewelry-on-a-chain-tip\ 2.svg');
+} 
+
+h1{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contactos {
+    background-color: #473D3D;
+    color: white;              
+    border-top: 5px solid #E7D17F;
+    padding: 30px 20px;       
+    font-family: sans-serif;   
+    position: relative;        
+}
+
+.footer-contenido {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;       
+    max-width: 1200px;         
+    margin: 0 auto;           
+}
+
+.columna {
+    flex: 1;              
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
-.divTemporal {
-    height: 200px;
-    width: 200px;
-    background-color: rgb(135, 103, 103);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.columna.izquierda {
+    align-items: flex-start;   
 }
-/* Temporal Eliminar */
+
+.iconos-redes {
+    display: flex;
+    gap: 15px;           
+    margin-top: 10px;
+}
+
+.iconos-redes a {
+    color: #B08844;             
+}
+
+.columna.centro {
+    text-align: center;
+    align-items: center;
+    border-left: 1px solid #E7D17F; 
+    border-right: 1px solid #E7D17F;
+}
+
+.input-container {
+    background-color:#B08844;
+    border-radius: 20px;      
+    padding: 5px 15px;
+    display: flex;
+    width: 80%;
+}
+
+
+.input-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.boton-ayuda {
+    position: absolute;      
+    bottom: 120px; /*  Lo cambie originalmente estaba en 20 */
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;     
+    text-align: center;
+    line-height: 40px;       
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
